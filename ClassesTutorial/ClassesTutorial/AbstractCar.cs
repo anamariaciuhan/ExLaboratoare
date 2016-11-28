@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesTutorial
 {
-    public abstract class AbstractCar // ex 4 mvc course 2
+    public abstract class AbstractCar : ICar // ex 4 mvc course 2 , ex 6
     {
     }
 }
