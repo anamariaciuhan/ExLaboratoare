@@ -1,1 +1,6 @@
 D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
+D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
+D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
+D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
+D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
+D:\UbbCourse1\Laboratoare\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb
