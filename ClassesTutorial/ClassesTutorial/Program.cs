@@ -16,7 +16,7 @@ namespace ClassesTutorial
             AbstractCar car2 = new Mercedes(); // ex 6 mvc course2
 
             Console.WriteLine("This is my first C# project"); //ex 1 mvc course2
-            Console.WriteLine("Mercede is " + mercedes.Description); //ex 9 mvc course2
+            Console.WriteLine("Mercede is " + mercedes.Description ); //ex 9 mvc course2
             Console.WriteLine("Mercede costs  " + mercedes.Price);// ex 9 mvc course2
             Console.ReadKey();
         }
