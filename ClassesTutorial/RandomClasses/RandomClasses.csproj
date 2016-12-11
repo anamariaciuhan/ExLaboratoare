@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E74F98E8-EE41-4FD1-9ADC-8F7005A2E9A1}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{A17F6CCF-68C6-4740-A950-86BA64BCD46B}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassesTutorial</RootNamespace>
-    <AssemblyName>ClassesTutorial</AssemblyName>
+    <RootNamespace>RandomClasses</RootNamespace>
+    <AssemblyName>RandomClasses</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,23 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractCar.cs" />
-    <Compile Include="Apple.cs" />
-    <Compile Include="Audi.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="EngineStruct.cs" />
-    <Compile Include="FizBuz.cs" />
-    <Compile Include="Fruit.cs" />
-    <Compile Include="FruitBasket.cs" />
-    <Compile Include="ICar.cs" />
-    <Compile Include="Ionatan.cs" />
-    <Compile Include="Mercedes.cs" />
-    <Compile Include="Orange.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\ClassesTutorial\ClassesTutorial.csproj">
+      <Project>{e74f98e8-ee41-4fd1-9adc-8f7005a2e9a1}</Project>
+      <Name>ClassesTutorial</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
